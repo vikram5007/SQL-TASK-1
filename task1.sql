@@ -83,3 +83,5 @@ update Trainees2 set SALARY=30000 where Trainee_ID=2;
 update Trainees2 set SALARY=30000 where Trainee_ID=3;
 update Trainees2 set SALARY=30000 where Trainee_ID=4;
 update Trainees2 set SALARY=30000 where Trainee_ID=5;
+
+select top 5 with ties FIRST_NAME from Trainees2 order by SALARY;
